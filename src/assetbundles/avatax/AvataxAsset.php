@@ -5,11 +5,11 @@
  *
  * Calculate and add sales tax to an order's base tax using Avalara's AvaTax service.
  *
- * @link      http://surprisehighway.com
+ * @link      http://unionco.com
  * @copyright Copyright (c) 2019 Surprise Highway
  */
 
-namespace abryrath\avatax\assetbundles\avatax;
+namespace unionco\avatax\assetbundles\avatax;
 
 use Craft;
 use craft\web\AssetBundle;
@@ -32,7 +32,7 @@ class AvataxAsset extends AssetBundle
      */
     public function init()
     {
-        $this->sourcePath = "@surprisehighway/avatax/assetbundles/avatax/dist";
+    $this->sourcePath = "@unionco/avatax/assetbundles/avatax/dist";
 
         $this->depends = [
             CpAsset::class,

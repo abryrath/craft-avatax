@@ -4,13 +4,13 @@
  *
  * Calculate and add sales tax to an order's base tax using Avalara's AvaTax service.
  *
- * @link      http://surprisehighway.com
+ * @link      http://unionco.com
  * @copyright Copyright (c) 2019 Surprise Highway
  */
 
-namespace abryrath\avatax\models;
+namespace unionco\avatax\models;
 
-use abryrath\avatax\Avatax;
+use unionco\avatax\Avatax;
 
 use Craft;
 use craft\base\Model;

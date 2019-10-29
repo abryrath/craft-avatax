@@ -1,8 +1,8 @@
 <?php
 
-namespace abryrath\avatax\adjusters;
+namespace unionco\avatax\adjusters;
 
-use abryrath\avatax\services\SalesTaxService;
+use unionco\avatax\services\SalesTaxService;
 
 use Craft;
 use craft\base\Component;

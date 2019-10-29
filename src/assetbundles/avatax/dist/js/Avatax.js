@@ -5,7 +5,7 @@
  *
  * @author    Surprise Highway
  * @copyright Copyright (c) 2019 Surprise Highway
- * @link      http://surprisehighway.com
+ * @link      http://unionco.com
  * @package   Avatax
  * @since     2.0.0
  */

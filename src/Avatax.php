@@ -5,16 +5,16 @@
  *
  * Calculate and add sales tax to an order's base tax using Avalara's AvaTax service.
  *
- * @link      http://surprisehighway.com
+ * @link      http://unionco.com
  * @copyright Copyright (c) 2019 Surprise Highway
  */
 
-namespace abryrath\avatax;
+namespace unionco\avatax;
 
-use abryrath\avatax\adjusters\AvataxTaxAdjuster;
-use abryrath\avatax\models\Settings;
-use abryrath\avatax\services\SalesTaxService;
-use abryrath\avatax\services\LogService;
+use unionco\avatax\adjusters\AvataxTaxAdjuster;
+use unionco\avatax\models\Settings;
+use unionco\avatax\services\SalesTaxService;
+use unionco\avatax\services\LogService;
 
 use Craft;
 use craft\base\Plugin;
@@ -79,7 +79,7 @@ class Avatax extends Plugin
     {
         parent::init();
         self::$plugin = $this;
-
+        
         $this->setComponents([
             'SalesTaxService' => SalesTaxService::class,
             'LogService' => LogService::class,

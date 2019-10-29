@@ -10,7 +10,7 @@ Calculate and add sales tax to an order's base tax using Avalara's AvaTax servic
 
 This plugin requires Craft CMS 3.1.0 or later and Craft Commerce 2.0 or later.
 
-> Related: The Craft 2.x Commerce 1.x [version](https://github.com/surprisehighway/craft-avataxtaxadjuster) of this plugin is no longer actively maintained but is still supported.
+> Related: The Craft 2.x Commerce 1.x [version](https://github.com/unionco/craft-avataxtaxadjuster) of this plugin is no longer actively maintained but is still supported.
 
 ## Installation
 
@@ -22,7 +22,7 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require surprisehighway/craft-avatax
+        composer require unionco/craft-avatax
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Avatax.
 
@@ -219,7 +219,7 @@ This example uses the default Commerce 2 address form fields and jQuery to perfo
 
 #### CertCapture Customer Lookup
 
-An example use case for passing along a custom [Customer Code](https://github.com/surprisehighway/craft-avatax/tree/dev-certcapture#customer-code) to AvaTax is that if a matching customer is found in a connected [CertCapture](https://www.avalara.com/us/en/products/sales-and-use-tax/certcapture.html) account any tax-exemptions based on certificates for that customer are automatically applied in AvaTax.
+An example use case for passing along a custom [Customer Code](https://github.com/unionco/craft-avatax/tree/dev-certcapture#customer-code) to AvaTax is that if a matching customer is found in a connected [CertCapture](https://www.avalara.com/us/en/products/sales-and-use-tax/certcapture.html) account any tax-exemptions based on certificates for that customer are automatically applied in AvaTax.
 
 In this case you may want to validate a customer number field to see if a matching customer is found in CertCapture before passing it along to AvaTax.
 
@@ -288,4 +288,4 @@ Some things to do, and ideas for potential features:
 
 ---
 
-Brought to you by [Surprise Highway](http://surprisehighway.com)
+Brought to you by [Surprise Highway](http://unionco.com)
